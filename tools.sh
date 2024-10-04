@@ -21,7 +21,8 @@ echo "kubectl and kubelogin installed successfully."
 
 # 03. Various k8s tools
 echo "Installing helm and trivy..."
-apk add helm trivy
+apk add helm
+curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
 echo "k8s tools installed successfully."
 
 # 04. Bruno

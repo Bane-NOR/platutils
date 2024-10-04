@@ -1,3 +1,3 @@
 # Platform tools and utilities
 
-![Image Build](https://github.com/bn-apps/platutils/actions/workflows/build.yml/badge.svg)
+[![Container Build](https://github.com/Bane-NOR/platutils/actions/workflows/build.yml/badge.svg)](https://github.com/Bane-NOR/platutils/actions/workflows/build.yml) [![Release Please](https://github.com/Bane-NOR/platutils/actions/workflows/release-please.yml/badge.svg)](https://github.com/Bane-NOR/platutils/actions/workflows/release-please.yml)

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Bane-NOR/platutils/compare/v1.1.0...v1.2.0) (2024-10-04)
+
+
+### Features
+
+* **tooling:** added new tools and refactor old ([7491d2c](https://github.com/Bane-NOR/platutils/commit/7491d2c2c59d979e334d23b57a93f3b87cc68d0f))
+
 ## [1.1.0](https://github.com/Bane-NOR/platutils/compare/v1.0.1...v1.1.0) (2024-10-04)
 
 

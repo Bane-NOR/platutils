@@ -6,7 +6,7 @@ export PIP_ROOT_USER_ACTION='ignore'
 
 # 01. Terraform
 echo "Installing Terraform..."
-curl https://releases.hashicorp.com/terraform/1.9.7/terraform_1.9.7_linux_amd64.zip -o terraform.zip && unzip terraform.zip
+curl https://releases.hashicorp.com/terraform/1.9.7/terraform_1.9.7_linux_amd64.zip -o terraform.zip && unzip terraform.zip && mv terraform /usr/local/bin/terraform && rm terraform.zip
 echo "Terraform installed successfully."
 
 # 02. Azure CLI

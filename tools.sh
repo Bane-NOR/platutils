@@ -15,9 +15,13 @@ apk add --no-cache py3-pip python3-dev gcc musl-dev linux-headers
 pip install --upgrade pip && pip install azure-cli
 echo "Azure CLI installed successfully."
 
+echo "Installing kubectl and kubelogin..."
+az aks install-cli
+echo "kubectl and kubelogin installed successfully."
+
 # 03. Various k8s tools
-echo "Installing k8s tools..."
-apk add kubectl helm
+echo "Installing helm and trivy..."
+apk add helm trivy
 echo "k8s tools installed successfully."
 
 # 04. Bruno
